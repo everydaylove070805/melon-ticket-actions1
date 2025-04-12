@@ -1,7 +1,7 @@
 name: Check NCT Dream 2025.05.24 Tickets  # 自定义工作流名称
 on:
   schedule:
-    - cron: '*/10 * * * *'  # 每10分钟检查一次（避免高频请求）
+    - cron: '*/5 * * * *'  # 每10分钟检查一次（避免高频请求）
   workflow_dispatch:  # 允许手动触发
 
 jobs:
