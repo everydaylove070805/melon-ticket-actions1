@@ -4,6 +4,10 @@ const core = require("@actions/core");
 const webhook_1 = require("@slack/webhook");
 const axios_1 = require("axios");
 const qs = require("querystring");
+headers: {
+  'Accept': 'application/json',
+  'User-Agent': 'melon-ticket-actions'
+}
 (async () => {
     var _a;
     // Validate parameters
