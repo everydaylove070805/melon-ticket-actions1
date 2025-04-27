@@ -1,4 +1,4 @@
-name: Check NCT Dream 2025.05.24 Tickets  # 自定义工作流名称
+name: Tickets  # 自定义工作流名称
 on:
   schedule:
     - cron: '*/5 * * * *'  # 每10分钟检查一次（避免高频请求）
