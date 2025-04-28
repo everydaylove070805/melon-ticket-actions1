@@ -1,7 +1,7 @@
 name: Tickets  # 自定义工作流名称
 on:
-  schedule:
-    - cron: '*/5 * * * *'  # 每10分钟检查一次（避免高频请求）
+  #schedule:
+  #  - cron: '*/5 * * * *'  # 每10分钟检查一次（避免高频请求）
   workflow_dispatch:  # 允许手动触发
 
 jobs:
